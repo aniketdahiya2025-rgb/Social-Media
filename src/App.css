@@ -1,0 +1,23 @@
+.Appcontainer {
+  display: flex;
+}
+.content {
+width:100%;
+}
+.sidebar {
+  height: 100vh;
+}
+.Footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
+.post-card {
+  margin-left: 30%;
+  margin-top: 20px;
+  margin-right:30%;
+}
+.post-card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  scale:1.02;
+}
